@@ -21,7 +21,7 @@ res.render('contact', { title: 'Contact' });
 router.get('/services', function(req, res, next) {
   res.render('services', { title: 'Services' });
 });
-/*index.js_Mercy_Adebayo_301246292_1/10/2023*/
+/*index.jsHarcourtInc.*/
 // Handle form submission
 router.post('/contact', (req, res) => {
   // Extract form data from req.body

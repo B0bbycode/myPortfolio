@@ -1,4 +1,4 @@
-//app.js_Mercy_Adebayo_301246292_1/10/2023-->
+//app.js_Honesty_Werinwo_301250830_1/10/2023-->
 
 var createError = require('http-errors');
 var express = require('express');
@@ -40,6 +40,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-
+app.listen(3000,function(req,res){ 
+  console.log('Server started at 3000') 
+})
 
 module.exports = app;
